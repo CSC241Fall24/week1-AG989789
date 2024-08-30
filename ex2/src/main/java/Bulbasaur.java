@@ -35,7 +35,7 @@ public class Bulbasaur {
    }
    
    public String toString() {
-      return "Level: " + getLevel() + " ID: " + getID();
+      return "Level: " + getLevel() + ", ID: " + getID();
    }
    
    public boolean equals(Bulbasaur other) {
