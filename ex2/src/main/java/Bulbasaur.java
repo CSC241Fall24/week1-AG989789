@@ -2,7 +2,7 @@ public class Bulbasaur {
 
    private int id;
    private int level;
-    
+   
    public Bulbasaur() {
       id = 1;
       level = 1;
@@ -35,7 +35,7 @@ public class Bulbasaur {
    }
    
    public String toString() {
-      return getName() + ": Level: " + getLevel();
+      return "Level: " + getLevel() + " ID: " + getID();
    }
    
    public boolean equals(Bulbasaur other) {
